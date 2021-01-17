@@ -63,11 +63,10 @@ align-items: safecenter;
 
   .sticky2 {
     text-align: center;
-    
     font-size: 14px;
   height: 75px;
   background-color: white;
-    width: 98%;
+    width: 100%;
     display: block;
     justify-content: center; 
     position: -webkit-sticky;
@@ -77,7 +76,8 @@ align-items: safecenter;
     padding-top: 5px;
     padding-bottom: 10px;
     margin-bottom: 0px;
-   margin-left: 0px; 
+   margin-left: -40px; 
+   padding-right: 10px;
     z-index: 3;
     font-weight: 600;
     }
@@ -207,7 +207,7 @@ ul.nav {
   text-align: center;
 
   font-size: 14px;
-width: 90%
+width: 100%
 background-color: white;
   width: 100%;
   display: block;
@@ -1022,7 +1022,7 @@ margin-top: -300px;
 font-size: 14px;
 margin-left: 100px;
 border-bottom: 3px solid #e0e9c67a;
-width: 92%;
+width: 90%;
 display: block;
 color: #383636;
 
@@ -1037,7 +1037,7 @@ h7 {
   }
 
 .shopwrap { 
-margin-left: 100px;
+margin-left: 0px;
 padding-bottom: 10px;
 
 }
@@ -1737,7 +1737,7 @@ color: #791936;
 background-color: white;
 font-size: 14px;
 line-height: 1.2;
-padding: 10px 50px 10px 50px;
+padding: 10px 60px 10px 50px;
 font-weight: 600;
 border-width: 1px;
 border-color: #e2d1d160;
