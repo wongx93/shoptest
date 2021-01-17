@@ -67,7 +67,7 @@ align-items: safecenter;
     font-size: 14px;
   height: 75px;
   background-color: white;
-    width: 100%;
+    width: 98%;
     display: block;
     justify-content: center; 
     position: -webkit-sticky;
@@ -77,7 +77,7 @@ align-items: safecenter;
     padding-top: 5px;
     padding-bottom: 10px;
     margin-bottom: 0px;
-    
+   margin-left: 0px; 
     z-index: 3;
     font-weight: 600;
     }
@@ -101,27 +101,29 @@ margin: auto;
 
 }
 
-.jewelry {
+.navone {
 background-image: url(backgroundimg/bg_card2.png);
   padding: 0px 50px 0px 50px;
-  width: 50%;
+  width: 100%;
 margin: 10px 1px 10px 5px;
 border-color: transparent;
 font-size: 16px;
+
 }
 
-.planters {
+.navtwo {
   background-image: url(backgroundimg/bg_card2.png);
   padding: 0px 50px 0px 50px;
-  width: 50%;
+  width: 100%;
 margin: 10px 5px 10px 1px;
 border-color: transparent;
 font-size: 16px;
 
+
 }
 
 
-.jewelry:hover {
+.navone:hover {
   background-size: stretch;
   background-repeat: no-repeat;
   background-position: center;
@@ -130,7 +132,7 @@ font-size: 16px;
   -ms-transition: all .5s ease;
   -o-transition: all .5s ease;
   transition: all .5s ease;
-  font-weight: 800;
+
   font-size: 18px;
   border-style: solid;
   border-width: 1px;
@@ -138,7 +140,7 @@ font-size: 16px;
 }
 
 
-.planters:hover {
+.navtwo:hover {
   background-size: stretch;
   background-repeat: no-repeat;
   background-position: center;
@@ -147,7 +149,7 @@ font-size: 16px;
   -ms-transition: all .5s ease;
   -o-transition: all .5s ease;
   transition: all .5s ease;
-  font-weight: 800;
+
   font-size: 18px;
   border-style: solid;
   border-width: 1px;
@@ -156,8 +158,7 @@ border-color: #eedada;
 }
 
 
-
-
+.
 
 #example-one {
   background: transparent;
@@ -861,6 +862,7 @@ background-attachment: inherit;
 
 
 
+
 .imgC { 
   
   padding: auto;
@@ -887,7 +889,51 @@ float: right;
   background-attachment: inherit;
   
   }
+
+  .decorsplash { 
+
+    padding: auto;
+    padding-bottom: 10px;
+  margin: 50px 0px 0px 80px;
+    background-size: 100%;
+    border-color: #d0dac786;
+    border-width: 10px;
+    border-style: solid;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 250px;
+  width: 400px;
+float: left;
+    background-color: #d0dac786;
+    background-position: center center;
+    color: #FFFFFF;
+    background-image: url(backgroundimg/imgplanter.png);
+    background-attachment: inherit;
+    
+    }
   
+    .decorsplash2 { 
+
+      padding: auto;
+      padding-bottom: 10px;
+    margin: 50px 80px 0px 0px;
+      background-size: 100%;
+      border-color: #d0dac786;
+      border-width: 10px;
+      border-style: solid;
+      background-repeat: no-repeat;
+      align-items: center;
+      height: 250px;
+    width: 400px;
+  float: right;
+      background-color: #d0dac786;
+      background-position: center center;
+      color: #FFFFFF;
+      background-image: url(minis.png);
+      background-attachment: inherit;
+      
+      }
+
   ul.nav {
     text-align: center;
   
@@ -912,16 +958,16 @@ float: right;
 
 .productnav { 
 
-  width: 97%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   background-color:white;
   position: sticky;
-  margin-left: 40px;
+  margin-left: 0px;
 
-Padding: 10px 10px 8px 10px;
+Padding: 10px 5px 8px 0px;
   top: 170px;
 
   z-index: 2;
@@ -1452,14 +1498,14 @@ background-color: #FFFFFF;
 
 
 
-.jewelry {
+.navone {
  
   width: 70%;
   margin-right: 2px;
   margin-left: 2px;
 }
 
-.planters {
+.navtwo {
 
   width: 70%;
 margin-right: 2px;

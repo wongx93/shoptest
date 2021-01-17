@@ -22,6 +22,15 @@ $(function(){
     $("#classic").load("classics.html"); 
   });
   
+  $(function(){
+    $("#pendant").load("pendants.html"); 
+  });
+
+    
+  $(function(){
+    $("#planter").load("planters.html"); 
+  });
+  
 
 
     $(function(){
