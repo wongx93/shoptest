@@ -103,17 +103,18 @@ margin: auto;
 
 .jewelry {
   background-color: #2e354750;
-  padding: 0px 50px 0px 50px;
+  padding: 0px 50px 2px 50px;
   width: 50%;
 margin: 10px 1px 10px 5px;
+font-size: 16px;
 }
 
 .planters {
   background-color: #2e354750;
   padding: 0px 50px 0px 50px;
   width: 50%;
-margin: 10px 5px 10px 1px;
-
+margin: 10px 5px 0px 1px;
+font-size: 16px;
 }
 
 
@@ -1648,7 +1649,7 @@ width: 80%;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: yellow;
+ 
   position: sticky;
   margin-left: 0px;
   margin-top: 10px;
@@ -1673,6 +1674,25 @@ border-style: solid;
 width: 100%;
 
 }
+
+.productnav a:hover {
+
+  color: #000000;
+  font-weight: 600;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-transform: none;
+
+      }
+
+
 
 
 .header .logo {
