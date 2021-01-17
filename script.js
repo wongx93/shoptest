@@ -48,75 +48,31 @@ $(function(){
 
 
 
-
-
-
-
-
-         
-
-
-   $('#new').click(function() {
-    location.reload();
-});
-
-
-
-
-         
-
-   
   
 
-             $(document).ready(function() {
-   
-   
-   
-   });
-   
+// to top right away
+if ( window.location.hash ) scroll(0,0);
+// void some browsers issue
+setTimeout( function() { scroll(0,0); }, 1);
 
+$(function() {
 
-document.addEventListener('DOMContentLoaded', function() {
-  const ele = document.getElementById('container');
-  ele.style.cursor = 'grab';
+    // your current click function
+    $('.scroll').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top + 'px'
+        }, 1000, 'swing');
+    });
 
-  let pos = { top: 0, left: 0, x: 0, y: 0 };
+    // *only* if we have anchor on the url
+    if(window.location.hash) {
 
-  const mouseDownHandler = function(e) {
-      ele.style.cursor = 'grabbing';
-      ele.style.userSelect = 'none';
+        // smooth scroll to the anchor id
+        $('html, body').animate({
+            scrollTop: `${$(window.location.hash).offset().top + 350}px`
+        }, 1000, 'swing');
+    }
 
-      pos = {
-          left: ele.scrollLeft,
-          top: ele.scrollTop,
-          // Get the current mouse position
-          x: e.clientX,
-          y: e.clientY,
-      };
-
-      document.addEventListener('mousemove', mouseMoveHandler);
-      document.addEventListener('mouseup', mouseUpHandler);
-  };
-
-  const mouseMoveHandler = function(e) {
-      // How far the mouse has been moved
-      const dx = e.clientX - pos.x;
-      const dy = e.clientY - pos.y;
-
-      // Scroll the element
-      ele.scrollTop = pos.top - dy;
-      ele.scrollLeft = pos.left - dx;
-  };
-
-  const mouseUpHandler = function() {
-      ele.style.cursor = 'grab';
-      ele.style.removeProperty('user-select');
-
-      document.removeEventListener('mousemove', mouseMoveHandler);
-      document.removeEventListener('mouseup', mouseUpHandler);
-  };
-
-  // Attach the handler
-  ele.addEventListener('mousedown', mouseDownHandler);
 });
-
+ 
