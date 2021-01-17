@@ -103,18 +103,17 @@ margin: auto;
 
 .jewelry {
   background-color: #2e354750;
-  padding: 0px 50px 2px 50px;
+  padding: 0px 50px 0px 50px;
   width: 50%;
 margin: 10px 1px 10px 5px;
-font-size: 16px;
 }
 
 .planters {
   background-color: #2e354750;
   padding: 0px 50px 0px 50px;
   width: 50%;
-margin: 10px 5px 0px 1px;
-font-size: 16px;
+margin: 10px 5px 10px 1px;
+
 }
 
 
@@ -1680,7 +1679,7 @@ width: 100%;
   color: #000000;
   font-weight: 600;
 
-  background-size: 100%;
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-transition: none;
