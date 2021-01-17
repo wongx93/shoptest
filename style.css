@@ -102,19 +102,60 @@ margin: auto;
 }
 
 .jewelry {
-  background-color: #2e354750;
+background-image: url(backgroundimg/bg_card2.png);
   padding: 0px 50px 0px 50px;
   width: 50%;
 margin: 10px 1px 10px 5px;
+border-color: transparent;
+font-size: 16px;
 }
 
 .planters {
-  background-color: #2e354750;
+  background-image: url(backgroundimg/bg_card2.png);
   padding: 0px 50px 0px 50px;
   width: 50%;
 margin: 10px 5px 10px 1px;
+border-color: transparent;
+font-size: 16px;
 
 }
+
+
+.jewelry:hover {
+  background-size: stretch;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  font-weight: 800;
+  font-size: 18px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eedada;  
+}
+
+
+.planters:hover {
+  background-size: stretch;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  font-weight: 800;
+  font-size: 18px;
+  border-style: solid;
+  border-width: 1px;
+border-color: #eedada;  
+  
+}
+
+
 
 
 
@@ -933,7 +974,11 @@ h6 {
 padding-top: 300px;
 margin-top: -300px;
 font-size: 14px;
-margin-left: 50px;
+margin-left: 100px;
+border-bottom: 3px solid #e0e9c67a;
+width: 92%;
+display: block;
+color: #383636;
 
 }
 
@@ -1387,9 +1432,9 @@ background-color: #FFFFFF;
 
 .shopnav {
 
-  top: 80px;
-  padding-top: 32px;
-  margin-bottom: 60px;
+  top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -1478,31 +1523,6 @@ li {
 
 
 
-.tab {
-
-  display: flex;
-  flex-direction: row;
-}
-
-
-.tab button {
-  background-color: #c5b3b342;
-  display: inline-block;
-  width: 100%;
-  
-  text-align: center;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: auto;
-  transition: 0.3s;
-  font-size: 13px;
-  font-family: Karla;
-
-  font-weight: 600;
-
-
-}
 
 
 .shopwrap {
@@ -1639,8 +1659,10 @@ float: right;
       .imageA { 
 margin: auto;
 padding: auto;
-width: 80%;
-
+background-image: url(image3.png);
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: 0% 0%;
         }
         
         

@@ -1,8 +1,8 @@
-<div id='product-component-1610811875196'></div>
+<div id='product-component-1610893113187'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  var scriptURL = 'shophomepage.js';
   if (window.ShopifyBuy) {
     if (window.ShopifyBuy.UI) {
       ShopifyBuyInit();
@@ -26,8 +26,8 @@
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: '6234669940910',
-        node: document.getElementById('product-component-1610811875196'),
+        id: '6258312446126',
+        node: document.getElementById('product-component-1610893113187'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -41,7 +41,8 @@
       },
       "title": {
         "font-family": "Karla, sans-serif",
-        "font-weight": "normal"
+        "font-weight": "normal",
+        "font-size": "14px"
       },
       "button": {
         "font-family": "Karla, sans-serif",
@@ -76,9 +77,12 @@
         "font-family": "Karla, sans-serif"
       }
     },
-    "width": "280px",
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
     "text": {
-      "button": "Add to cart"
+      "button": "View product"
     },
     "googleFonts": [
       "Karla"

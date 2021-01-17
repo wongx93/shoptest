@@ -33,27 +33,23 @@ $(function(){
   });
 
   $(function(){
-    $("#testproduct1").load("products/testproduct1.html"); 
+    $("#homepageproduct1").load("products/homepageproduct1.html"); 
   });
 
   $(function(){
-    $("#testproduct2").load("products/testproduct2.html"); 
+    $("#homepageproduct2").load("products/homepageproduct2.html"); 
   });
 
 
 
   $(function(){
-    $("#testproduct3").load("products/testproduct3.html"); 
+    $("#homepageproduct3").load("products/homepageproduct3.html"); 
   });
 
 
 
   
 
-// to top right away
-if ( window.location.hash ) scroll(0,0);
-// void some browsers issue
-setTimeout( function() { scroll(0,0); }, 1);
 
 $(function() {
 
@@ -70,7 +66,7 @@ $(function() {
 
         // smooth scroll to the anchor id
         $('html, body').animate({
-            scrollTop: `${$(window.location.hash).offset().top + 350}px`
+            scrollTop: `${$(window.location.hash).offset().top + 250}px`
         }, 1000, 'swing');
     }
 
