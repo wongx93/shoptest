@@ -1650,8 +1650,9 @@ width: 80%;
   align-items: center;
  
   position: sticky;
-  margin-left: 0px;
+  margin-left: 2px;
   margin-top: 10px;
+  margin-right: 2px;
 Padding: 0px 0px 0px 0px;
 
   top: 190px;
@@ -1668,7 +1669,7 @@ line-height: 1.2;
 padding: 10px 50px 10px 50px;
 font-weight: 600;
 border-width: 1px;
-
+border-color: #e2d1d160;
 border-style: solid;
 width: 100%;
 
