@@ -953,7 +953,7 @@ textarea {
 }
 
 .collapsible {
-  background-image: url(/backgroundimg/bgslide1.png);
+  background-image: url(backgroundimg/bgslide1.png);
   font-weight: 600;
   color: #000000;
   cursor: pointer;
