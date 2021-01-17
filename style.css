@@ -72,7 +72,7 @@ align-items: safecenter;
     justify-content: center; 
     position: -webkit-sticky;
     position: sticky;
-    top: 50px;
+    top: 30px;
   align-items: safecenter;
     padding-top: 5px;
     padding-bottom: 10px;
@@ -844,6 +844,27 @@ float: right;
   
   }
   
+  ul.nav {
+    text-align: center;
+  
+    font-size: 14px;
+  width: 90%
+  background-color: white;
+    width: 100%;
+    display: block;
+    justify-content: center; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 45px;
+  align-items: safecenter;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    z-index: 3;
+    font-weight: 600;
+  
+  }
+
 
 .productnav { 
 
@@ -855,7 +876,7 @@ float: right;
   background-color:white;
   position: sticky;
   margin-left: 40px;
-  
+
 Padding: 10px 10px 8px 10px;
   top: 170px;
 
@@ -1383,10 +1404,6 @@ background-color: #FFFFFF;
 
 
 
-
-
-
-
 .jewelry {
  
   width: 70%;
@@ -1409,6 +1426,7 @@ background-color: white;
 padding: auto;
 margin-left: -20px;
 width: 100%;
+
 }
 
 
@@ -1422,18 +1440,26 @@ ul.nav {
   text-align: center;
   background-color:white;
   font-size: 14px;
-width: 90%
+width: 100%
   display: block;
   justify-content: center; 
-  position: -webkit-sticky;
-  position: sticky;
-margin: auto;
-padding: 0px 2px 2px 2px;
+position: relative;
+padding: 2px 2px 12px 2px;
 align-items: safecenter;
   z-index: 3;
   font-weight: 600;
 
+  display: block;
+  justify-content: center; 
+  align-items: safecenter;
+  top: 0px;
+height: 150px;
+
+
 }
+
+
+
 
 li { 
   margin: 0;
@@ -1442,7 +1468,8 @@ li {
 
 
 .list-wrap { 
-  margin-top: 20px;
+
+  margin-top: -10px;
   margin-Left: 20px;
 }
 
@@ -1474,32 +1501,20 @@ li {
 
 }
 
-ul.nav {
-  text-align: center;
-  background-color: white;
-  font-size: 14px;
-width: 100%;
-
-
-  display: block;
-  justify-content: center; 
-  position: -webkit-sticky;
-  position: sticky; 
-  top: 0px;
-align-items: safecenter;
-  padding-top: 50px;
-height: 150px;
-  padding-bottom: 10px;
-  margin-bottom: 0px;
-  z-index: 3;
-  font-weight: 600;
-
-}
 
 .shopwrap {
   margin: 0;
 }
 
+#example-one {
+  background: transparent;
+  padding: 0px;
+  margin: 0px 0 20px 0;
+  font-size: 16px;
+  width: 92%;
+
+
+}
 
 #example-one .nav li {
   width: 50%;
@@ -1513,10 +1528,12 @@ padding: auto;
 
 
 #example-one .nav li a {
-  width: 80%;
+  width: 100%;
 float: left;
-padding: 10px 10px 10px 10px;
-  margin: 15px 5px 5px 5px;
+align-items: center;
+line-height: 1.2;
+padding: 0px 2.5px 10px 2.5px;
+  margin: 0px 2.5px 5px 2.5px;
   font-size: 14px;
 }
 
@@ -1628,14 +1645,15 @@ width: 80%;
 
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: white;
+  background-color: yellow;
   position: sticky;
   margin-left: 0px;
-  margin-top: 100px;
+  margin-top: 10px;
 Padding: 0px 0px 0px 0px;
+
   top: 190px;
 
   z-index: 2;
@@ -1649,6 +1667,10 @@ font-size: 14px;
 line-height: 1.2;
 padding: 10px 50px 10px 50px;
 font-weight: 600;
+border-width: 1px;
+
+border-style: solid;
+width: 100%;
 
 }
 
