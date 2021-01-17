@@ -1,0 +1,43 @@
+
+
+
+<title>erin wong | shop</title>
+
+
+<link rel="shortcut icon" type="image/jpg" href="/favicon.jpg"/>
+
+
+
+<header class="header">
+  
+    <a href="index.html" class="logo">erin wong handmade</a>
+
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    
+    <ul class="menu">
+      <li><a href="./shopindex.html">shop</a></li>
+      <li><a href="./about.html">about</a></li>
+      <li><a href="./contact.html">contact</a></li>
+      <li><a href="./shipping.html">shipping</a></li>
+      <li><a href="./faq.html">faq</a></li>
+    </ul>
+
+    <script type="text/javascript">
+    const currentLocation = location.href;
+    const menuItem = document.querySelectorAll('li a');
+    const menuLength = menuItem.length
+    for (let i= 0; i<menuLength; i++){
+      if(menuItem[i].href === currentLocation){
+        menuItem[i].className = "active"
+      }
+    }
+
+
+
+</script>
+
+  </header>
+
+
+
