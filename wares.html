@@ -34,9 +34,7 @@
 
           <div id="slideshow2">
           <div class="decorsplash"></div>
-          
-
-
+      
           <div class="decorsplash2"></div>
         </div>
 
@@ -64,10 +62,8 @@
       <div class="productnav">
 
         <a href="#planters">planters</a>
-    
 
-
-        <a href="#minis">minis</a>
+        <a href="#mini">minis</a>
         
         <a href="#pendants">trinket dishes</a>
          
@@ -78,10 +74,22 @@
         
         
         <h6 id="planters">planters</h6>
-        
-            <div id="planter"> 
+        <div class="description">3-4" in diameter. ideal for succulents, herbs & flowers. includes drainage hole. </div>
+         <div class="shopwrap">   
+        <div id="planter"> </div></div>
+
+
+            
+        <h6 id="mini">minis</h6>
+
+        <div class="description">tiny 2" planters are ideal for air plants, dried flowers, tea lights, and baby succulent cuttings. </div>
+         <div class="shopwrap">   
+          <div id="minis"> </div></div>
+    
                                            
-        <h6 id="earrings">earrings</h6>
+   
+                                           
+   
         
 
 
@@ -123,21 +131,20 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
        
 
-<script>
 
+
+
+        <script>
+          setInterval(function() { 
+     $('#slideshow2 > div:first')
+       .fadeOut(3500)
+       .next()
+       .fadeIn(3500)
+       .end()
+       .appendTo('#slideshow2');
+   },  3500);
    
-
-
-  setInterval(function() { 
-$('#slideshow2 > div:first')
-.fadeOut(3000)
-.next()
-.fadeIn(3000)
-.end()
-.appendTo('#slideshow2');
-},  3000);
-
-</script>
+    </script>
 
 
 

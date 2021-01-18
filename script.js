@@ -30,6 +30,10 @@ $(function(){
   $(function(){
     $("#planter").load("planters.html"); 
   });
+
+  $(function(){
+    $("#minis").load("minis.html"); 
+  });
   
 
 

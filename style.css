@@ -52,7 +52,7 @@ background-color: white;
   position: sticky;
   top: 50px;
 align-items: safecenter;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 10px;
   margin-bottom: 20px;
   z-index: 3;
@@ -837,13 +837,13 @@ padding: auto;
 padding-bottom: 10px;
 padding-right: 5px;
 padding-left: 5px;
-background-image: url(./image4.png);
+background-image: url(image4.png);
 margin: 20px 10px 20px 20px;
 background-size: 100%;
 border-style: solid;
 background-repeat: no-repeat;
 align-items: center;
-height: 450px;
+height: 350px;
 width: 40%;
 display: flex;
 flex-direction: column;
@@ -871,21 +871,21 @@ background-attachment: inherit;
 margin: 20px 20px 20px 20px;
 
   background-size: 100%;
-  border-color: #d0dac786;
+  border-color: #93a1a72d;
   border-width: 10px;
   border-style: solid;
   background-repeat: no-repeat;
   align-items: center;
-  height: 450px;
+  height: 350px;
 width: 50%;
 float: right;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-color: #d0dac786;
+  background-color: #4949493d;
   background-position: center center;
   color: #FFFFFF;
-  background-image: url(./backgroundimg/imgplanter.png);
+  background-image: url(image5.png);
   background-attachment: inherit;
   
   }
@@ -920,7 +920,7 @@ background-image: white;
         background-position:  0% 100%;
         background-size: 100%;
         color: #FFFFFF;
-        background-image: url(planters1.png);
+        background-image: url(billboard1.png);
         background-attachment: inherit;
         
         }
@@ -944,7 +944,7 @@ background-image: white;
           background-position:  0% 100%;
           background-size: 100%;
           color: #FFFFFF;
-          background-image: url(minis1.png);
+          background-image: url(billboard2.png);
           background-attachment: inherit;
           
           }
@@ -954,8 +954,8 @@ background-image: white;
     text-align: center;
   
     font-size: 14px;
-  width: 90%
-  background-color: white;
+  width: 100%
+  background-color: 
     width: 100%;
     display: block;
     justify-content: center; 
@@ -968,6 +968,7 @@ background-image: white;
     margin-bottom: 20px;
     z-index: 3;
     font-weight: 600;
+    
   
   }
 
@@ -1044,6 +1045,15 @@ color: #383636;
 
 }
 
+.description {
+margin-left: 20px;
+font-size: 14px;
+color: #525252;
+ margin-bottom: 10px;
+ padding-bottom: 10px;
+ margin-top: -15px;
+font-style: italic;
+ }
 
 
 span2 {
@@ -1053,6 +1063,15 @@ span2 {
  float: right;
 
 }
+
+
+span2 a {
+padding: 2px 5px 2px 5px;
+background-color: #faefef50;
+ font-weight: 400;
+
+ }
+
 
 .shopwrap { 
 margin-left: 0px;
@@ -1552,20 +1571,20 @@ ul.nav {
   text-align: center;
   background-color:white;
   font-size: 14px;
-width: 100%
+width: 100vw;
   display: block;
   justify-content: center; 
 position: relative;
-padding: 2px 2px 12px 2px;
+padding: 2px 2px 0px 2px;
 align-items: safecenter;
   z-index: 3;
   font-weight: 600;
-
+left: 0;
   display: block;
   justify-content: center; 
   align-items: safecenter;
   top: 0px;
-height: 150px;
+height: 100px;
 
 
 }
@@ -1593,6 +1612,27 @@ li {
   margin: 0;
 }
 
+
+.sticky2 {
+  text-align: center;
+  font-size: 14px;
+background-color:white;
+  width: 100vw;
+  justify-content: center; 
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+align-items: safecenter;
+  padding-top: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+margin: auto;
+
+  z-index: 3;
+  font-weight: 600;
+  }
+
+
 #example-one {
   background: transparent;
   padding: 0px;
@@ -1604,11 +1644,12 @@ li {
 }
 
 #example-one .nav li {
-  width: 50%;
-float: left;
-padding: auto;
-  margin: auto;
-  font-size: 14px;
+  width: 44%;
+background-color: transparent;
+padding: 1px;
+margin-left: 0px;
+margin-right: 0px;
+font-size: 14px;
   display: inline-flex;
 }
 
@@ -1616,12 +1657,13 @@ padding: auto;
 
 #example-one .nav li a {
   width: 100%;
-float: left;
 align-items: center;
 line-height: 1.2;
-padding: 0px 2.5px 10px 2.5px;
-  margin: 0px 2.5px 5px 2.5px;
+padding-left: 30px;
+padding-right: 20px;
   font-size: 14px;
+ 
+
 }
 
 
@@ -1854,7 +1896,7 @@ display: inline-block;
 .imgC { 
   
 padding: auto;
-  background-image: url(backgroundimg/imgplanter.png);
+
 margin: auto;
   background-size: 100%;
 border: none;
@@ -1872,6 +1914,64 @@ border: none;
   
   }
   
+  #slideshow2 { 
+    height: 170px;
+    position: relative;
+    
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-image: white;
+      }
+    
+      .decorsplash { 
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+            padding: auto;
+            background-size: 100%;
+            background-repeat: no-repeat;
+    
+        margin-top: 10px;
+            align-items: center;
+            padding-left: 100px;
+            padding-right: 100px;
+          width: 510px;
+          height: 180px;
+            background-color: white;
+            background-position:  0% 0%;
+            background-size: 80%;
+            color: #FFFFFF;
+            background-image: url(billboard1.png);
+            background-attachment: inherit;
+            
+            }
+        
+        
+        .decorsplash2 { 
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+              padding: auto;
+              background-size: 100%;
+              background-repeat: no-repeat;
+    
+          margin-top: 10px;
+              align-items: center;
+              padding-left: 100px;
+              padding-right: 100px;
+            width: 510px;
+            height: 250px;
+              background-color: white;
+              background-position:  0% 0%;
+              background-size: 80%;
+              color: #FFFFFF;
+              background-image: url(billboard2.png);
+              background-attachment: inherit;
+              
+              }
+    
+
 
   .shopwrap { 
 width: 100%;
@@ -1910,6 +2010,8 @@ width: 100%;
   height: 0;
 }
   
+
+
 
 
 
