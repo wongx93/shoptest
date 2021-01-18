@@ -32,9 +32,16 @@
 
         <section class="mainbody">
 
-          <div class="decorsplash2"></div>
+          <div id="slideshow2">
           <div class="decorsplash"></div>
           
+
+
+          <div class="decorsplash2"></div>
+        </div>
+
+
+
 
 <section class="shopbody" id="example-one">
   <ul class="nav">
@@ -117,22 +124,21 @@
        
 
 <script>
-  $('#jewelry-prod').triggerevent(function(){
-    $('jewelry-prod').html(newContent);
-});
+
    
-   
+
+
+  setInterval(function() { 
+$('#slideshow2 > div:first')
+.fadeOut(6000)
+.next()
+.fadeIn(6000)
+.end()
+.appendTo('#slideshow2');
+},  6000);
 
 </script>
 
-
-<script type="text/javascript">
-  $(document).ready(function () {
-      $('#reload').click(function() {
-          window.location.reload();
-      });
-  });
-</script>
 
 
 

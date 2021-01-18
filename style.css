@@ -890,49 +890,58 @@ float: right;
   
   }
 
-  .decorsplash { 
+  #slideshow2 { 
 
+ 
+height: 300px;
+position: relative;
+margin-left: 10px;
+margin-right: 20px;
+margin-top: 50px;
+background-image: white;
+  }
+
+  .decorsplash { 
+position: absolute;
     padding: auto;
-    padding-bottom: 10px;
-  margin: 50px 0px 0px 80px;
-    background-size: 100%;
-    border-color: #d0dac786;
-    border-width: 10px;
-    border-style: solid;
+
     background-repeat: no-repeat;
+margin-left: 15%;
+margin-top: 10px;
     align-items: center;
-    height: 250px;
-  width: 400px;
-float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+  width: 1020px;
+  height: 300px;
     background-color: #d0dac786;
-    background-position: center center;
+    background-position:  0% 100%;
+    background-size: 100%;
     color: #FFFFFF;
-    background-image: url(backgroundimg/imgplanter.png);
+    background-image: url(planters1.png);
     background-attachment: inherit;
     
     }
-  
     .decorsplash2 { 
+      position: absolute;
+          padding: auto;
+          background-size: 100%;
+          background-repeat: no-repeat;
+      margin-left: 15%;
+      margin-top: 10px;
+          align-items: center;
+          padding-left: 100px;
+          padding-right: 100px;
+        width: 1020px;
+        height: 300px;
+          background-color: #d0dac786;
+          background-position:  0% 100%;
+          background-size: 100%;
+          color: #FFFFFF;
+          background-image: url(minis1.png);
+          background-attachment: inherit;
+          
+          }
 
-      padding: auto;
-      padding-bottom: 10px;
-    margin: 50px 80px 0px 0px;
-      background-size: 100%;
-      border-color: #d0dac786;
-      border-width: 10px;
-      border-style: solid;
-      background-repeat: no-repeat;
-      align-items: center;
-      height: 250px;
-    width: 400px;
-  float: right;
-      background-color: #d0dac786;
-      background-position: center center;
-      color: #FFFFFF;
-      background-image: url(minis.png);
-      background-attachment: inherit;
-      
-      }
 
   ul.nav {
     text-align: center;
