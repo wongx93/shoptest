@@ -33,6 +33,24 @@
         <section class="mainbody">
 
 
+          <div id="slideshow2">
+            <div class="jewelrysplash">
+
+              <a href="#classics">
+                <div class="button">shop classics</div></a>
+  
+                <a href="#earrings">
+                <div class="button"> shop earrings</div></a>
+
+              
+            </div>
+
+            <div class="jewelrysplash2"></div>
+          
+          </div>
+  
+
+
 
 <section class="shopbody" id="example-one">
   
@@ -85,8 +103,11 @@
 
 
 
- <h6 id="earrings">earrings </h6>
- <div class="description">tiny sets & single studs. on hypoallergenic 14k gold posts.  </div>
+ <h6 id="earrings">earrings <span2>single studs</span2><span2><a href="#sets">sets</a></span2></h6>
+
+ <div class="description">tiny sets & single studs. on hypoallergenic 14k gold posts. mix & match tiny sets or wear single studs for a one-of-a-kind look.  </div>
+
+ <h7 id="sets">sets</h7>
 
  <div class="shopwrap">
 
@@ -133,9 +154,18 @@
         <!-- Latest compiled JavaScript -->
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-       
+
+
+<script>
+          setInterval(function() { 
+     $('#slideshow2 > div:first')
+       .fadeOut(4000)
+       .next()
+       .fadeIn(4000)
+       .end()
+       .appendTo('#slideshow2');
+   },  3500);
+   </script>
 
 
 
