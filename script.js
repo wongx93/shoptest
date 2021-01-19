@@ -23,7 +23,7 @@ $(function(){
   });
   
   $(function(){
-    $("#pendant").load("pendants.html"); 
+    $("#pendants").load("pendants.html"); 
   });
 
     
@@ -33,6 +33,11 @@ $(function(){
 
   $(function(){
     $("#minis").load("minis.html"); 
+  });
+  
+
+  $(function(){
+    $("#single").load("singles.html"); 
   });
   
 
