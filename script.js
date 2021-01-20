@@ -8,6 +8,9 @@ $(function(){
     $("#footer").load("footer.html"); 
   });
 
+
+
+
   $(function(){
     $("#new").load("new.html"); 
   });

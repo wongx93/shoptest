@@ -491,6 +491,10 @@ padding: auto;
     
      } 
     
+     .comingsoon{
+      width: 50%;
+    }
+
 
 
   .primary3 {
@@ -952,6 +956,34 @@ background-image: white;
           background-attachment: inherit;
           
           }
+
+
+          .shopsplash { 
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+      
+            left: 50%;
+            transform: translateX(-50%);
+                padding: auto;
+                background-size: 100%;
+                background-repeat: no-repeat;
+      
+            margin-top: 10px;
+                align-items: flex-end;
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-bottom: 10px;
+              width: 1020px;
+              height: 300px;
+                background-color: #d0dac786;
+                background-position:  0% 100%;
+                background-size: 100%;
+                color: #FFFFFF;
+                background-image: url(billboard5.png);
+                background-attachment: inherit;
+                
+                }
 
 
               
@@ -1622,6 +1654,9 @@ background-color: #FFFFFF;
   width: 70%;
   margin-right: 2px;
   margin-left: 2px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .navtwo {
@@ -1630,6 +1665,9 @@ background-color: #FFFFFF;
 margin-right: 2px;
 margin-left: 2px;
   margin-top: 1px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
 
 }
@@ -1705,7 +1743,7 @@ background-color:white;
   position: sticky;
   top: 30px;
 align-items: safecenter;
-  padding-top: 5px;
+  padding-top: 2px;
   padding-left: 0px;
   padding-right: 0px;
 margin: auto;
@@ -1713,6 +1751,12 @@ margin: auto;
   z-index: 3;
   font-weight: 600;
   }
+
+
+  span2 { 
+    display: none;
+  }
+
 
 
 #example-one {
@@ -1998,6 +2042,7 @@ border: none;
   
   #slideshow2 { 
     height: 170px;
+    width: 80%;
     position: relative;
     
     margin-left: 30px;
@@ -2053,13 +2098,117 @@ border: none;
               
               }
   
+
+              .jewelrysplash { 
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                    padding: auto;
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+            
+                margin-top: 10px;
+                    align-items: center;
+                    padding-left: 100px;
+                    padding-right: 100px;
+                  width: 510px;
+                  height: 180px;
+                    background-color: white;
+                    background-position:  0% 0%;
+                    background-size: 80%;
+                    color: #FFFFFF;
+                    background-image: url(billboard3.png);
+                    background-attachment: inherit;
+            
+                    
+                    }
+                
+
+     .jewelrysplash .button { 
+          display: none;
+                    
+                    }
+                
+
+                
+                .jewelrysplash2 { 
+                  position: absolute;
+                  left: 50%;
+                  transform: translateX(-50%);
+                      padding: auto;
+                      background-size: 100%;
+                      background-repeat: no-repeat;
+            
+                  margin-top: 10px;
+                      align-items: center;
+                      padding-left: 100px;
+                      padding-right: 100px;
+                    width: 510px;
+                    height: 250px;
+                      background-color: white;
+                      background-position:  0% 0%;
+                      background-size: 80%;
+                      color: #FFFFFF;
+                      background-image: url(billboard42.png);
+                      background-attachment: inherit;
+                      
+                      }
               
 
-
+                      .decorsplash { 
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                            padding: auto;
+                            background-size: 100%;
+                            background-repeat: no-repeat;
+                    
+                        margin-top: 10px;
+                            align-items: center;
+                            padding-left: 100px;
+                            padding-right: 100px;
+                          width: 510px;
+                          height: 180px;
+                            background-color: white;
+                            background-position:  0% 0%;
+                            background-size: 80%;
+                            color: #FFFFFF;
+                            background-image: url(billboard1.png);
+                            background-attachment: inherit;
+                            
+                            }
+                        
+                        
+                        .shopsplash { 
+                          position: absolute;
+                          left: 50%;
+                          transform: translateX(-50%);
+                              padding: auto;
+                              background-size: 100%;
+                              background-repeat: no-repeat;
+                    
+                          margin-top: 10px;
+                              align-items: center;
+                              padding-left: 100px;
+                              padding-right: 100px;
+                            width: 510px;
+                            height: 250px;
+                              background-color: white;
+                              background-position:  40% 0%;
+                              background-size: 80%;
+                              color: #FFFFFF;
+                              background-image: url(billboard5.png);
+                              background-attachment: inherit;
+                              
+                              }
 
   .shopwrap { 
 width: 100%;
 
+    }
+
+    .comingsoon{
+      width: 100%;
     }
 
     .h6 { 
