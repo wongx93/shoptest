@@ -51,16 +51,32 @@
 
 
             <section class="shopbody">
-  
+
                 <h2>shipping.</h2>  
+               
+                <div class="shipping">
+<h1>shipping policy</h1>
+All orders are processed within 1-3 business days (excluding weekends and holidays) after receiving your order confirmation email. You will receive another notification when your order has shipped. 
+
+<h1>domestic & international shipping rates & estimates</h1>
+Shipping charges for your order will be calculated and displayed at checkout. 
+
+International shipping prices vary by territory. See shipping choices by carrier at check-out.
+
+
+<h1>how do I check the status of my order?</h1>
+
+  When your order has shipped, you will receive an email notification from us which will include a tracking number you can use to check its status. Please allow 48 hours for the tracking information to become available. 
+<p>
+  If you haven’t received your order within 30 days of receiving your shipping confirmation email, please contact me <a href="contact.html">here</a> with your name and order number, and we will look into it for you.
 
 
 
-            
 
 
 
 
+</div>
 </section>
 
         </section>
@@ -75,6 +91,24 @@
 
 
 
+
+
+        <script>
+          var coll = document.getElementsByClassName("collapsible");
+          var i;
+          
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.maxHeight){
+                content.style.maxHeight = null;
+              } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+              } 
+            });
+          }
+          </script>
 
 
 
