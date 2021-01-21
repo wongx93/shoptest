@@ -1925,8 +1925,7 @@ background-position: 0% 0%;
           background-color:white;
           position: sticky;
           margin-left: 0px;
-        
-        Padding: 10px 5px 8px 0px;
+   padding: auto;
           top: 170px;
         
           z-index: 2;
