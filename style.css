@@ -1938,7 +1938,7 @@ color: #791936;
 background-color: white;
 font-size: 14px;
 line-height: 1.2;
-padding: 10px 60px 10px 50px;
+padding: auto;
 font-weight: 600;
 border-width: 1px;
 border-color: #e2d1d160;
@@ -1952,7 +1952,7 @@ width: 100%;
   color: #000000;
   font-weight: 600;
 
-  background-size: 80%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-transition: none;
