@@ -40,6 +40,7 @@
           <div id="slideshow2">
 
             <div class="shopsplash"></div>
+            <div class="shopsplash2"></div>
 
       
           
@@ -134,6 +135,17 @@
         <script type="text/javascript" src="shopjs.js"></script>
 
 
+
+        <script>
+          setInterval(function() { 
+     $('#slideshow2 > div:first')
+       .fadeOut(4000)
+       .next()
+       .fadeIn(4000)
+       .end()
+       .appendTo('#slideshow2');
+   },  3500);
+   </script>
 
 
 

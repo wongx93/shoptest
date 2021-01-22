@@ -22,6 +22,21 @@ body {
   
 }
 
+.search {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px 10px 10px;
+  margin-top: 100px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: space-around;
+  font-size: 14px;
+  
+  }
+
 
 .mainbody { 
   display: block;
@@ -48,15 +63,15 @@ overflow: -moz-hidden-unscrollable;
   
   font-size: 14px;
 
-background-color: white;
+background-color:white;
   width: 100%;
   display: block;
   justify-content: center; 
   position: -webkit-sticky;
   position: sticky;
-  top: 50px;
+  top: 90px;
 align-items: safecenter;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 10px;
   margin-bottom: 20px;
   z-index: 3;
@@ -75,9 +90,9 @@ align-items: safecenter;
     justify-content: center; 
     position: -webkit-sticky;
     position: sticky;
-    top: 20px;
+    top: 0px;
   align-items: safecenter;
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 10px;
     margin-bottom: 0px;
    margin-left: -40px; 
@@ -564,7 +579,7 @@ padding: auto;
 .shopbody {
   display: block;
 
-padding: 20px 20px 20px 20px;
+padding: 80px 20px 20px 20px;
 
 
 }
@@ -914,12 +929,13 @@ float: right;
 
   #slideshow2 { 
 
-height: 300px;
+height: 250px;
 position: relative;
 width: 100%;
 margin-left: auto;
 margin-right: auto;
-margin-top: 50px;
+margin-top: 90px;
+
 background-image: white;
   }
 
@@ -997,6 +1013,33 @@ background-image: white;
                 background-attachment: inherit;
                 
                 }
+
+                .shopsplash2 { 
+                  position: absolute;
+                  display: flex;
+                  justify-content: space-between;
+            
+                  left: 50%;
+                  transform: translateX(-50%);
+                      padding: auto;
+                      background-size: 100%;
+                      background-repeat: no-repeat;
+            
+                  margin-top: 10px;
+                      align-items: flex-end;
+                      padding-left: 100px;
+                      padding-right: 100px;
+                      padding-bottom: 10px;
+                    width: 1020px;
+                    height: 300px;
+                      background-color: #d0dac786;
+                      background-position:  0% 100%;
+                      background-size: 100%;
+                      color: #FFFFFF;
+                      background-image: url(billboard6.png);
+                      background-attachment: inherit;
+                      
+                      }
 
 
               
@@ -1806,7 +1849,13 @@ padding-right: 20px;
 }
 
 
+.shipping { 
 
+
+  width: 100%;
+  margin: auto;
+  padding: auto;
+}
 
 
 
@@ -1814,7 +1863,8 @@ padding-right: 20px;
 
 
   width: 100%;
-  margin-left: -10px;
+  margin: auto;
+  padding: auto;
 }
 
 
@@ -2219,6 +2269,28 @@ border: none;
                               
                               }
 
+                              .shopsplash2 { 
+                                position: absolute;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                    padding: auto;
+                                    background-size: 100%;
+                                    background-repeat: no-repeat;
+                          
+                                margin-top: 10px;
+                                    align-items: center;
+                                    padding-left: 100px;
+                                    padding-right: 100px;
+                                  width: 510px;
+                                  height: 250px;
+                                    background-color: white;
+                                    background-position:  40% 0%;
+                                    background-size: 80%;
+                                    color: #FFFFFF;
+                                    background-image: url(billboard6.png);
+                                    background-attachment: inherit;
+                                    
+                                    }
   .shopwrap { 
 width: 100%;
 
@@ -2227,6 +2299,12 @@ width: 100%;
     .comingsoon{
       width: 100%;
     }
+
+
+
+    
+    
+
 
     .h6 { 
 
