@@ -168,7 +168,7 @@ align-items: safecenter;
     padding-top: 55px;
     padding-bottom: 10px;
     margin-bottom: 0px;
-   margin-left: -40px; 
+   margin-left: -30px; 
    padding-right: 10px;
     z-index: 3;
     font-weight: 600;
@@ -271,8 +271,8 @@ border-color: #eedada;
 #example-one .nav li {
   width: 49%;
 float: left;
-  margin-left: 2px;
-  margin-top: 2px;
+  margin-left: 5px;
+  margin-top: 5px;
   font-size: 14px;
 }
 
@@ -1207,8 +1207,8 @@ background-image: white;
   position: sticky;
   margin-left: 0px;
 
-Padding: 10px 5px 8px 0px;
-  top: 170px;
+Padding: 8px 5px 10px 0px;
+  top: 220px;
 
   z-index: 2;
    
