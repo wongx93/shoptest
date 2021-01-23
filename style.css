@@ -29,12 +29,13 @@ body {
   height: 50px;
 padding: auto;
   margin-top: auto;
-  background-image: url(/backgroundimg/bg1_2.png);
+  background-image: url(backgroundimg/bg1_2.png);
   background-repeat: no-repeat;
   background-size: 100%;
 text-align: center;
   font-size: 14px;
   justify-content: center;
+  background-color: white;
   align-items: center;
   position: relative;
 
@@ -2376,6 +2377,13 @@ width: 100%;
     }
 
 
+    .search-container{
+      width: 250px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+    }
 
     
     
