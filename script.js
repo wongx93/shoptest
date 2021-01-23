@@ -50,6 +50,11 @@ $(function(){
   });
 
   $(function(){
+    $("#trinkets").load("trinkets.html"); 
+  });
+
+
+  $(function(){
     $("#art").load("art.html"); 
   });
 
