@@ -54,6 +54,11 @@ $(function(){
   });
 
   $(function(){
+    $("#search").load("search.html"); 
+  });
+
+
+  $(function(){
     $("#homepageproduct1").load("products/homepageproduct1.html"); 
   });
 
@@ -68,7 +73,14 @@ $(function(){
   });
 
 
-  
+  $(document).ready(function() {
+     
+    $(".fa-search").click(function() {
+       $(".search-box").toggle();
+       $("input[type='text']").focus();
+     });
+
+ });
 
 
 
